@@ -158,16 +158,34 @@ button {
   | Hero
   |============================
 */
-.hero-container {
-  display: flex;
-  align-items: center;
+
+.hero-container{
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+
 }
 
 .hero-section {
   background-color: var(--link-cl);
-  padding: 188px 0;
+  background-image: url(../images/hero/people-office\ 1.jpg);
+  background-size: cover;
   display: flex;
+  max-height: 600px;
+  margin: 0;
+  padding: 188px 0;
   align-items: center;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+
+  
 }
 .hero-title {
   font-size: 56px;
@@ -175,7 +193,10 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--hero-cl);
-  max-width: 496px;
+  width: 496px;
+  padding-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-btn {
@@ -192,6 +213,8 @@ button {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .address {
