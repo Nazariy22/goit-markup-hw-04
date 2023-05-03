@@ -346,15 +346,24 @@ button {
   text-align: center;
 }
 
-.card-content {
-  padding: 32px 0;
+.team-content {
+  padding-top: 32px;
+   padding-bottom: 32px;
 }
 
 .socials {
   display: flex;
   justify-content: center;
   gap: 24px;
+  width: 232px;
+  height: 40px;
 }
+
+.socials-link :hover,
+.socials-link :focus {
+  color: #404bbf;
+}
+
 
 .socials-item {
   width: 40px;
@@ -371,8 +380,11 @@ button {
   justify-content: center;
 }
 
-.socials-icons{
-  fill: #f4f4fd;}
+.socials-icons {
+  fill: #f4f4fd;
+}
+
+
 
 /**
   |============================
