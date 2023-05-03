@@ -155,6 +155,14 @@ button {
   align-items: center;
 }
 
+
+
+.socials-item:hover,
+.socials-link:focus {
+  color:var(--activ-cl)
+}
+
+
 /**
   |============================
   | Hero
@@ -355,12 +363,10 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-  width: 232px;
-  height: 40px;
 }
 
-.socials-link :hover,
-.socials-link :focus {
+.socials:hover,
+.socials:focus {
   color: #404bbf;
 }
 
