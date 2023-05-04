@@ -12,8 +12,7 @@
   --hero-cl: #ffffff;
   --logo-cl: #4d5ae5;
   --btn-cl: #e7e9fc;
-  --costumers:#8e8f99;
-
+  --costumers: #8e8f99;
 }
 /**
   |============================
@@ -157,13 +156,10 @@ button {
   align-items: center;
 }
 
-
-
 .socials-item:hover,
 .socials-link:focus {
-  color:var(--activ-cl)
+  color: var(--activ-cl);
 }
-
 
 /**
   |============================
@@ -358,7 +354,7 @@ button {
 
 .team-content {
   padding-top: 32px;
-   padding-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .socials {
@@ -366,8 +362,6 @@ button {
   justify-content: center;
   gap: 24px;
 }
-
-
 
 .socials-link {
   width: 100%;
@@ -384,25 +378,19 @@ button {
 }
 
 .socials-link:hover,
-.socials-lin:focus{
- background-color: #404bbf;
+.socials-link:focus {
+  background-color: #404bbf;
 }
-
-
 
 .socials-icons {
   fill: #f4f4fd;
 }
-
-
 
 /**
   |============================
   | Customers
   |============================
 */
-
-
 
 .costumers-list {
   display: flex;
@@ -426,31 +414,26 @@ button {
 
 .costumers-link:hover,
 .costumers-link:focus {
-  border-color:#404bbf;;
+  border-color: #404bbf;
   color: var(--activ-cl);
 }
 
-
-
-
-.customers-section{
-  padding-top: 120px; 
+.customers-section {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.customers-title{
+.customers-title {
   font-size: 36px;
   line-height: 1.1;
-  color: var(--link-cl); 
+  color: var(--link-cl);
   margin-bottom: 72px;
   text-align: center;
-
 }
 
-.costumers-icons{
-  fill: currentColor;;
+.costumers-icons {
+  fill: currentColor;
 }
-
 
 /**
   |============================
@@ -474,8 +457,8 @@ button {
   outline-offset: -2px;
 }
 
-.footer-content{
-  margin-right: 120px
+.footer-content {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -495,19 +478,18 @@ button {
   margin-bottom: 16px;
 }
 
-.footer-soc-title{
+.footer-soc-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--background-cl);
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
-
 
 .footer-soc-list {
   display: flex;
-  grid-template-columns: 16px;
+  gap: 16px;
 }
 
 .soc-list-item {
@@ -529,7 +511,10 @@ button {
   fill: var(--web-logo-light);
 }
 
-
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #31d0aa;
+}
 
 /**
   |============================
@@ -563,8 +548,34 @@ button {
   border-radius: 4px;
 }
 
+.filter-btn-one {
+  display: block;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-cl);
+  background-color: var(--web-logo-light);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--btn-cl);
+  border-radius: 4px;
+}
+
 .filter-btn:hover,
 .filter-btn:focus {
+  color: var(--background-cl);
+  background-color: var(--activ-cl);
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter-btn-one:hover,
+.filter-btn-one:focus {
   color: var(--background-cl);
   background-color: var(--activ-cl);
   border: 1px solid transparent;
