@@ -384,8 +384,8 @@ button {
 }
 
 .socials-link:hover,
-.socials-lin:focus {
- background-color: #404bbf; ;
+.socials-lin:focus{
+ background-color: #404bbf;
 }
 
 
@@ -393,6 +393,8 @@ button {
 .socials-icons {
   fill: #f4f4fd;
 }
+
+
 
 /**
   |============================
@@ -501,6 +503,32 @@ button {
   color: var(--background-cl);
   margin-bottom: 16px; 
 }
+
+
+.footer-soc-list {
+  display: flex;
+  grid-template-columns: 16px;
+}
+
+.soc-list-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--logo-cl);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-soc-icons {
+  fill: var(--web-logo-light);
+}
+
 
 
 /**
