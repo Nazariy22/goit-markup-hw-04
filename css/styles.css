@@ -367,11 +367,6 @@ button {
   gap: 24px;
 }
 
-.socials:hover,
-.socials:focus {
-  color: #404bbf;
-}
-
 
 
 .socials-link {
@@ -387,6 +382,13 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+
+.socials-link:hover,
+.socials-lin:focus {
+ background-color: #404bbf; ;
+}
+
+
 
 .socials-icons {
   fill: #f4f4fd;
@@ -420,6 +422,15 @@ button {
   color: var(--costumers);
 }
 
+.costumers-link:hover,
+.costumers-link:focus {
+  border-color:#404bbf;;
+  color: var(--activ-cl);
+}
+
+
+
+
 .customers-section{
   padding-top: 120px; 
   padding-bottom: 120px;
@@ -434,6 +445,10 @@ button {
 
 }
 
+.costumers-icons{
+  fill: currentColor;;
+}
+
 
 /**
   |============================
@@ -444,6 +459,21 @@ button {
   color: var(--web-logo-light);
   background-color: var(--link-cl);
   padding: 100px 0;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+.footer-content{
+  margin-right: 120px
 }
 
 .footer-logo {
@@ -462,6 +492,16 @@ button {
   color: var(--logo-cl);
   margin-bottom: 16px;
 }
+
+.footer-soc-title{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--background-cl);
+  margin-bottom: 16px; 
+}
+
 
 /**
   |============================
