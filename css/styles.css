@@ -168,11 +168,7 @@ button {
 */
 
 .hero-container {
-  background-image: linear-gradient(
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)
-  ),
-  url(../images/hero/people-office\ 1.jpg);
+
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -182,6 +178,11 @@ button {
 }
 
 .hero-section {
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/hero/img-1.jpg);
   background-color: var(--link-cl);
   max-width: 1440px;
   background-repeat: no-repeat;
