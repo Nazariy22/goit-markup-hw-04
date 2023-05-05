@@ -168,7 +168,6 @@ button {
 */
 
 .hero-container {
-
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -179,10 +178,10 @@ button {
 
 .hero-section {
   background-image: linear-gradient(
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)
-  ),
-  url(../images/hero/img-1.jpg);
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/img-1.jpg);
   background-color: var(--link-cl);
   max-width: 1440px;
   background-repeat: no-repeat;
@@ -203,7 +202,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--hero-cl);
   width: 496px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -354,6 +353,7 @@ button {
 }
 
 .team-content {
+  width: 264px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -362,6 +362,8 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .socials-link {
